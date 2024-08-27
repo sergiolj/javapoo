@@ -6,7 +6,8 @@ public class Pessoa {
 	int idade,diaNasc,mesNasc,anoNasc,aRef;
 	String nome;
 
-public Pessoa(String n, int dn, int mn, int an) {
+public Pessoa() {}// CONSTRUTOR PADRÃO
+public Pessoa(String n, int dn, int mn, int an) { // METODO CONSTRUTOR PADRONIZADO
 		nome=n;
 		diaNasc=dn;
 		mesNasc=mn;
